@@ -75,7 +75,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: var(--color-primary);
+  background: rgb(0, 20, 61);
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -1208,7 +1208,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   overflow: hidden;
-  background: rgba(var(--color-black-rgb), 0.9);
+  background: rgba(0, 20, 61, 0.9);
   font-size: 16px;
   color: rgba(var(--color-white-rgb), 0.7);
 }
@@ -1303,7 +1303,7 @@ section {
 
 .footer .credits {
   padding-top: 6px;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .footer .credits a {
@@ -1330,4 +1330,24 @@ span.stars, span.stars span {
 span.stars span {
   background-position: 0 0;
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/747/star.svg);
+}
+
+
+.float-wa{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:70px;
+	right:10px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float-wa{
+	margin-top:16px;
 }
