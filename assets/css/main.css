@@ -1351,3 +1351,8 @@ span.stars span {
 .my-float-wa{
 	margin-top:16px;
 }
+
+.contact-link {
+  font-family: sans-serif;
+  font-size: 13px;
+}
